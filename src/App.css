@@ -20,7 +20,7 @@ a, button{
 
 section#home{
     width: 100%;
-    background-image: url("./assets/home_background.png");
+    background-image: url("./assets/images/home_background.png");
 }
 
 section#home .links{
