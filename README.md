@@ -1,3 +1,5 @@
+This is a link to my [portfolio page]( https://abigaelkirwa.github.io/AbigaelKirwaPortfolioReact/). It was deployed using GitHub Pages
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
