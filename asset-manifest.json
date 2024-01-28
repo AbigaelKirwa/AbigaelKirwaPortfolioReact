@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AbigaelKirwaPortfolioReact/static/css/main.83e0f885.css",
+    "main.js": "/AbigaelKirwaPortfolioReact/static/js/main.34bab428.js",
+    "static/js/787.7da95b79.chunk.js": "/AbigaelKirwaPortfolioReact/static/js/787.7da95b79.chunk.js",
+    "static/media/project_one_kirche.png": "/AbigaelKirwaPortfolioReact/static/media/project_one_kirche.57aaf348ac51328f3f2b.png",
+    "static/media/project_three_animation.png": "/AbigaelKirwaPortfolioReact/static/media/project_three_animation.98e300f1a01d67973c75.png",
+    "static/media/home_background.png": "/AbigaelKirwaPortfolioReact/static/media/home_background.aae823c493cfd7343b08.png",
+    "static/media/project_two_computer.png": "/AbigaelKirwaPortfolioReact/static/media/project_two_computer.8f4785384688f32a75c8.png",
+    "static/media/project_four_afya.png": "/AbigaelKirwaPortfolioReact/static/media/project_four_afya.cb2b4456be4c54f90768.png",
+    "static/media/abigael_home_image.png": "/AbigaelKirwaPortfolioReact/static/media/abigael_home_image.e87314376692e77174e9.png",
+    "index.html": "/AbigaelKirwaPortfolioReact/index.html",
+    "main.83e0f885.css.map": "/AbigaelKirwaPortfolioReact/static/css/main.83e0f885.css.map",
+    "main.34bab428.js.map": "/AbigaelKirwaPortfolioReact/static/js/main.34bab428.js.map",
+    "787.7da95b79.chunk.js.map": "/AbigaelKirwaPortfolioReact/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83e0f885.css",
+    "static/js/main.34bab428.js"
+  ]
+}
