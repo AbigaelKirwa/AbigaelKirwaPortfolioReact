@@ -1,4 +1,4 @@
-import MainHomeImage from "../assets/abigael_home_image.png"
+import MainHomeImage from "../assets/images/abigael_home_image.png"
 
 function Home() {
     return(
