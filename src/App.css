@@ -548,3 +548,29 @@ footer .social_media div{
         padding-top: 20%;
     }
 }
+#api_page_joke{
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 5%;
+}
+#api_page_joke h2{
+    padding-bottom: 5%;
+}
+#api_page_joke p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 775px) {
+    #api_page_joke p{
+        font-size: 15px;
+    }
+    #api_page_joke{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+    }
+}
+@media only screen and (max-width: 545px) {
+    #api_page_joke{
+        padding-top: 30%;
+    }
+}
