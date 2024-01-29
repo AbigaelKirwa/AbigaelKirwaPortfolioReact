@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AbigaelKirwaPortfolioReact/static/css/main.06bf7c2a.css",
-    "main.js": "/AbigaelKirwaPortfolioReact/static/js/main.9779c99d.js",
+    "main.css": "/AbigaelKirwaPortfolioReact/static/css/main.9587c247.css",
+    "main.js": "/AbigaelKirwaPortfolioReact/static/js/main.9a01e638.js",
     "static/js/787.7da95b79.chunk.js": "/AbigaelKirwaPortfolioReact/static/js/787.7da95b79.chunk.js",
     "static/media/project_one_kirche.png": "/AbigaelKirwaPortfolioReact/static/media/project_one_kirche.57aaf348ac51328f3f2b.png",
     "static/media/project_three_animation.png": "/AbigaelKirwaPortfolioReact/static/media/project_three_animation.98e300f1a01d67973c75.png",
@@ -10,12 +10,12 @@
     "static/media/project_four_afya.png": "/AbigaelKirwaPortfolioReact/static/media/project_four_afya.cb2b4456be4c54f90768.png",
     "static/media/abigael_home_image.png": "/AbigaelKirwaPortfolioReact/static/media/abigael_home_image.e87314376692e77174e9.png",
     "index.html": "/AbigaelKirwaPortfolioReact/index.html",
-    "main.06bf7c2a.css.map": "/AbigaelKirwaPortfolioReact/static/css/main.06bf7c2a.css.map",
-    "main.9779c99d.js.map": "/AbigaelKirwaPortfolioReact/static/js/main.9779c99d.js.map",
+    "main.9587c247.css.map": "/AbigaelKirwaPortfolioReact/static/css/main.9587c247.css.map",
+    "main.9a01e638.js.map": "/AbigaelKirwaPortfolioReact/static/js/main.9a01e638.js.map",
     "787.7da95b79.chunk.js.map": "/AbigaelKirwaPortfolioReact/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06bf7c2a.css",
-    "static/js/main.9779c99d.js"
+    "static/css/main.9587c247.css",
+    "static/js/main.9a01e638.js"
   ]
 }
