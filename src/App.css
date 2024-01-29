@@ -41,6 +41,7 @@ section#home .links ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 20px;
 }
 
 section#home .links ul li a span.home_link{
@@ -81,7 +82,7 @@ section#home .main_home .words .home_buttons button{
     border: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 section#home .main_home .words .home_buttons button.more{
@@ -97,12 +98,12 @@ section#home .main_home .words .home_buttons button.contact{
 section#home .main_home .main_pic{
     width: 55%;
     margin-top: -70px;
-    margin-bottom: -5px;
     float: right;
 }
 
 section#home .main_home .main_pic img{
-    width: 100%;
+    width: 83%;
+    float: right;
 }
 
 /* making the home section responsive */
@@ -120,17 +121,21 @@ section#home .main_home .main_pic img{
         font-size: 17px;
     }
 }
-@media only screen and (max-width: 871px) {
+@media only screen and (max-width: 1290px) {
     section#home .main_home .main_pic{
         width: 0%;
     }
     section#home .main_home .words{
         color: #ffffff;
         margin-top: 10%;
-        margin-left: 5%;
-        margin-right: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
         text-align: center;
         padding-bottom: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
     section#home .main_home .words .home_buttons{
         margin-top: 10%;
@@ -260,12 +265,12 @@ section#skills .numerical_skills .skill #skill-four{
 
 section#skills .numerical_skills .skill h1{
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 80px;
 }
 
 section#skills .numerical_skills .skill p{
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 section#skills .languages{
@@ -276,6 +281,7 @@ section#skills .languages{
     grid-template-columns: auto auto;
     grid-column-gap:5%;
     grid-row-gap:40%;
+    font-size: 20px;
 }
 
 section#skills .languages .language_stats .overall{
@@ -371,10 +377,10 @@ section#resume .resume_line {
     border-radius: 20px;
 }
 section#resume .resume_main h1{
-    font-size: 30px;
+    font-size: 35px;
 }
 section#resume .resume_main p{
-    font-size: 17px;
+    font-size: 20px;
     padding-top: 3%;
     line-height: 30px;
 }
@@ -487,9 +493,11 @@ footer .left_links a{
 }
 footer .left_links .left_link h3{
     padding-bottom: 30px;
+    font-size: 25px;
 }
 footer .left_links .left_link p{
     padding-bottom: 20px;
+    font-size: 17px;
 }
 footer .social_media{
     display: flex;
@@ -555,6 +563,7 @@ footer .social_media div{
 }
 #api_page_joke h2{
     padding-bottom: 5%;
+    font-size: 35px;
 }
 #api_page_joke p{
     font-size: 20px;
