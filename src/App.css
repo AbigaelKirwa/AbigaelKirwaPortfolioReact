@@ -41,7 +41,6 @@ section#home .links ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 20px;
 }
 
 section#home .links ul li a span.home_link{
@@ -82,7 +81,7 @@ section#home .main_home .words .home_buttons button{
     border: none;
     color: #ffffff;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 section#home .main_home .words .home_buttons button.more{
@@ -98,12 +97,12 @@ section#home .main_home .words .home_buttons button.contact{
 section#home .main_home .main_pic{
     width: 55%;
     margin-top: -70px;
+    margin-bottom: -5px;
     float: right;
 }
 
 section#home .main_home .main_pic img{
-    width: 83%;
-    float: right;
+    width: 100%;
 }
 
 /* making the home section responsive */
@@ -121,7 +120,7 @@ section#home .main_home .main_pic img{
         font-size: 17px;
     }
 }
-@media only screen and (max-width: 1290px) {
+@media only screen and (max-width: 870px) {
     section#home .main_home .main_pic{
         width: 0%;
     }
@@ -265,12 +264,12 @@ section#skills .numerical_skills .skill#skill-four{
 
 section#skills .numerical_skills .skill h1{
     color: #FFFFFF;
-    font-size: 80px;
+    font-size: 50px;
 }
 
 section#skills .numerical_skills .skill p{
     color: #FFFFFF;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 section#skills .languages{
@@ -281,7 +280,6 @@ section#skills .languages{
     grid-template-columns: auto auto;
     grid-column-gap:5%;
     grid-row-gap:40%;
-    font-size: 20px;
 }
 
 section#skills .languages .language_stats .overall{
@@ -377,10 +375,10 @@ section#resume .resume_line {
     border-radius: 20px;
 }
 section#resume .resume_main h1{
-    font-size: 35px;
+    font-size: 30px;
 }
 section#resume .resume_main p{
-    font-size: 20px;
+    font-size: 17px;
     padding-top: 3%;
     line-height: 30px;
 }
@@ -493,11 +491,11 @@ footer .left_links a{
 }
 footer .left_links .left_link h3{
     padding-bottom: 30px;
-    font-size: 25px;
+    font-size: 20px;
 }
 footer .left_links .left_link p{
     padding-bottom: 20px;
-    font-size: 17px;
+    font-size: 15px;
 }
 footer .social_media{
     display: flex;
@@ -567,9 +565,11 @@ footer .social_media div{
 }
 #api_page_joke p{
     font-size: 20px;
+    font-weight: 500;
+    color: #BD9400;
 }
 #api_page_joke button{
-    font-size: 20px;
+    font-size: 17px;
     padding:2% 7%;
     margin-top: 5%;
     border-radius: 50px;
