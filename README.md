@@ -18,23 +18,31 @@ The event loop is continous loop that continously checks the call stack and call
 
 # 4) What is the difference between export x and export default x? How do you import them differently?
 
-export x is used when multiple values from one page are exported, for example<br>
+export x is used when multiple values from one page are exported, for example
 
-export const greeting = "Hello";<br>
-export const number = 4;<br>
+```
+export const greeting = "Hello";
+export const number = 4;
+```
 
-they are imported in the following manner:<br>
+they are imported in the following manner:
 
-import {greeting, number} from "./Module1.js"<br>
+```
+import {greeting, number} from "./Module1.js";
+```
 
-export defaulst x is used when only one value from one page is exported, for example<br>
+export defaulst x is used when only one value from one page is exported, for example
 
-const greeting = "Hello"<br>
-export default greeting;<br>
+```
+const greeting = "Hello";
+export default greeting;
+```
 
-it is imported in the following manner:<br>
+it is imported in the following manner:
 
-import greeting from "./Module.js"<br>
+```
+import greeting from "./Module.js";
+```
 
 
 # 5) Why do you use className as a property in React and not class?
@@ -43,7 +51,9 @@ In react class is a reserved name because it is used to define classes in Javasc
 
 # 6) Why should you not write the following? What will happen?
 
-<button onClick={setCounter(counter + 1)}> +1 </button><br>
+```
+<button onClick={setCounter(counter + 1)}> +1 </button>
+```
 
 In this scenerio, the button will be invoked when the component renders hence it will trigger an infinite loop of re-renders on the page.
 
@@ -51,15 +61,17 @@ In this scenerio, the button will be invoked when the component renders hence it
 
 Object deconstruction is a feature that allows the extraction of data from arrays or objects into distinct variables. Below is an example:<br>
 
-const Student = (props) => {<br>
-  return (<br>
-    <div><br>
-      <h2>{props.name}</h2><br>
-      <p>{props.grade}</p><br>
-      <p>{props.age}</p><br>
-    </div><br>
-  );<br>
-};<br>
+```
+const Student = (props) =>
+  return
+    <div>
+      <p>{props.name}</p>
+      <p>{props.grade}</p>
+      <p>{props.age}</p>
+    </div>
+  );
+};
+```
 
 # 8) How is it possible to use HTML and JavaScript in the same function (like in a React Component)? What makes it possible under the hood?
 
@@ -69,23 +81,26 @@ It is possible to use HTML and Javascript in React because of JSX (JavaScript XM
 
 The async/await function is a special function that is mostly used to handle asynchronous fetching of data. Below is an example
 
-async function getData() {<br>
-  const response = await fetch('https://API.example.com');<br>
-  const data = await response.json();<br>
-  console.log(data);<br>
+```
+async function getData() {
+  const response = await fetch('https://API.example.com');
+  const data = await response.json();
+  console.log(data);
 }
-
+```
 
 # 10) What is a Promise? Bring an example
 
 A promise is an object representing the success or failure of an asynchronous operation. <br>
 
-const getData = new Promise((resolve, reject) => {<br>
-  setTimeout(() => {<br>
-    const data = { message: 'Data fetched successfully' };<br>
-    resolve(data);<br>
-  }, 1000);<br>
-});<br>
+```
+const getData = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    const data = { message: 'Data fetched successfully' };
+    resolve(data);
+  }, 1000);
+});
+```
 
 # Getting Started with Create React App
 
