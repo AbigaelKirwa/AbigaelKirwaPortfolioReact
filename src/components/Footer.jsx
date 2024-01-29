@@ -22,13 +22,13 @@ function Footer() {
         </div>
         <div class="social_media">
             <div>
-                <a href="https://www.linkedin.com/in/abigael-kirwa-40647219b/" target="_blank"><img src={Linkedin} alt="linkedin image"/></a>
+                <a href="https://www.linkedin.com/in/abigael-kirwa-40647219b/" target="_blank" rel="noreferrer"><img src={Linkedin} alt="linkedin"/></a>
             </div>
             <div>
-                <a href="https://www.youtube.com/@theuiuxwebdev" target="_blank"><img src={Youtube} alt="youtube image"/></a>
+                <a href="https://www.youtube.com/@theuiuxwebdev" target="_blank" rel="noreferrer"><img src={Youtube} alt="youtube"/></a>
             </div>
             <div>
-                <a href="mailto:abigael.kirwa@strathmore.edu"><img src={Mail} alt="mail image"/></a>
+                <a href="mailto:abigael.kirwa@strathmore.edu"><img src={Mail} alt="mail"/></a>
             </div>
         </div> 
     </footer>
