@@ -1,5 +1,5 @@
 import './App.css';
-import ChuckNorrisJoke from './components/ApiPage';
+import Jokes from './components/ApiPage';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Projects from './components/Projects';
@@ -13,7 +13,7 @@ function App() {
       <Projects/>
       <Skills/>
       <Resume/>
-      <ChuckNorrisJoke/>
+      <Jokes/>
       <Footer/>
     </div>
   );
