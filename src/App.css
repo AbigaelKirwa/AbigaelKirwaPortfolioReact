@@ -247,19 +247,19 @@ section#skills .numerical_skills .skill{
     padding-top: 25%;
 }
 
-section#skills .numerical_skills .skill #skill-one{
+section#skills .numerical_skills .skill#skill-one{
   background-image: url("./assets/images/skills_background_one.png");
 }
 
-section#skills .numerical_skills .skill #skill-two{
+section#skills .numerical_skills .skill#skill-two{
   background-image: url("./assets/images/skills_background_two.png");
 }
 
-section#skills .numerical_skills .skill #skill-three{
+section#skills .numerical_skills .skill#skill-three{
   background-image: url("./assets/images/skills_background_three.png");
 }
 
-section#skills .numerical_skills .skill #skill-four{
+section#skills .numerical_skills .skill#skill-four{
   background-image: url("./assets/images/skills_background_four.png");
 }
 
@@ -568,6 +568,15 @@ footer .social_media div{
 #api_page_joke p{
     font-size: 20px;
 }
+#api_page_joke button{
+    font-size: 20px;
+    padding:2% 7%;
+    margin-top: 5%;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    color: #1E1E1E;
+}
 @media only screen and (max-width: 775px) {
     #api_page_joke p{
         font-size: 15px;
@@ -581,5 +590,6 @@ footer .social_media div{
 @media only screen and (max-width: 545px) {
     #api_page_joke{
         padding-top: 30%;
+        line-height: 50px;
     }
 }
