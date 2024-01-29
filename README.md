@@ -8,91 +8,84 @@ This is a link to my [portfolio page]( https://abigaelkirwa.github.io/AbigaelKir
 
 NPM stands for Node Package Manager. It allows developers to share and borrow packages. NPM is used to install and manage packages, mainly libraries and tools, for Node.js
 
-
 # 2) What is SPA?
 
 SPA stands for Single Package Application. An SPA can retrieve all of the applications HTML, CSS, and JavaScript code on the inintial load or it can load the resourced dynamically in response to a user's interaction. SPA's use HTML and Ajax.
-
 
 # 3) What is the event loop?
 
 The event loop is continous loop that continously checks the call stack and callback queue. If the call stack is empty it takes the first function from the callback queue and pushes it onto the queue for execution. In this case, even though Javascript is single-threaded it appears to be multi-threaded because of how quickly functions are executed.
 
-
 # 4) What is the difference between export x and export default x? How do you import them differently?
 
-export x is used when multiple values from one page are exported, for example
+export x is used when multiple values from one page are exported, for example<br>
 
-export const greeting = "Hello";
-export const number = 4;
+export const greeting = "Hello";<br>
+export const number = 4;<br>
 
-they are imported in the following manner:
+they are imported in the following manner:<br>
 
-import {greeting, number} from "./Module1.js"
+import {greeting, number} from "./Module1.js"<br>
 
-export defaulst x is used when only one value from one page is exported, for example
+export defaulst x is used when only one value from one page is exported, for example<br>
 
-const greeting = "Hello"
-export default greeting;
+const greeting = "Hello"<br>
+export default greeting;<br>
 
-it is imported in the following manner:
+it is imported in the following manner:<br>
 
-import greeting from "./Module.js"
+import greeting from "./Module.js"<br>
 
 
 # 5) Why do you use className as a property in React and not class?
 
 In react class is a reserved name because it is used to define classes in Javascript thus className is used to define HTML classes instead.
 
-
 # 6) Why should you not write the following? What will happen?
 
-<button onClick={setCounter(counter + 1)}> +1 </button>
+<button onClick={setCounter(counter + 1)}> +1 </button><br>
 
 In this scenerio, the button will be invoked when the component renders hence it will trigger an infinite loop of re-renders on the page.
 
-
 # 7) What is object deconstruction and how is it connected to React components (example)
 
-Object deconstruction is a feature that allows the extraction of data from arrays or objects into distinct variables. Below is an example:
+Object deconstruction is a feature that allows the extraction of data from arrays or objects into distinct variables. Below is an example:<br>
 
-const Student = (props) => {
-  return (
-    <div>
-      <h2>{props.name}</h2>
-      <p>{props.grade}</p>
-      <p>{props.age}</p>
-    </div>
-  );
-};
-
+const Student = (props) => {<br>
+  return (<br>
+    <div><br>
+      <h2>{props.name}</h2><br>
+      <p>{props.grade}</p><br>
+      <p>{props.age}</p><br>
+    </div><br>
+  );<br>
+};<br>
 
 # 8) How is it possible to use HTML and JavaScript in the same function (like in a React Component)? What makes it possible under the hood?
 
 It is possible to use HTML and Javascript in React because of JSX (JavaScript XML). It allows the two to be used together. 
 
-
 # 9) What is async/await? Bring an example
 
 The async/await function is a special function that is mostly used to handle asynchronous fetching of data. Below is an example
 
-async function getData() {
-  const response = await fetch('https://API.example.com');
-  const data = await response.json();
-  console.log(data);
+async function getData() {<br>
+  const response = await fetch('https://API.example.com');<br>
+  const data = await response.json();<br>
+  console.log(data);<br>
 }
 
 
 # 10) What is a Promise? Bring an example
 
-A promise is an object representing the success or failure of an asynchronous operation. 
+A promise is an object representing the success or failure of an asynchronous operation. <br>
 
-const getData = new Promise((resolve, reject) => {
-  setTimeout(() => {
-    const data = { message: 'Data fetched successfully' };
-    resolve(data);
-  }, 1000);
-});
+const getData = new Promise((resolve, reject) => {<br>
+  setTimeout(() => {<br>
+    const data = { message: 'Data fetched successfully' };<br>
+    resolve(data);<br>
+  }, 1000);<br>
+});<br>
 
 # Getting Started with Create React App
 
